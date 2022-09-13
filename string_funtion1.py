@@ -31,4 +31,9 @@ for vowel in 'aeiou':
     print(f'{vowel} => {data.lower().count(vowel)} times')
 
 # WAP to remove all the punctations from the string
-#str='he@#11%o!@&*(!@wo!@r,1!d)'
+str='he@#ll%o!@&*(!@wo!@r,l!d)'
+
+from string import punctuation
+for p in punctuation:
+    str=str.replace(p,'')
+print(str)
