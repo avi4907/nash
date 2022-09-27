@@ -1,12 +1,12 @@
 import pgzrun
 
-width=500
-height=400
+WIDTH=500
+HEIGHT=400
 
 p=Actor('ironman', (200,200))
 
 def draw():
-    screen.fill("black")
+    screen.fill("black")                         
     p.draw()
 def update():
     if keyboard.left:
