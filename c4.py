@@ -22,4 +22,5 @@ class Scical(Calculator):
     print(task1.exp())
     print(task1.mod())
     print(task1.root())
+      
 
