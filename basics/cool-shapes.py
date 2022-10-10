@@ -3,7 +3,7 @@ from turtle import *
 bgcolor('black')
 speed(0)
 hideturtle()
-for i in range(300):
+for i in range(200):
     color('red')
     circle(i)
     color('orange')
